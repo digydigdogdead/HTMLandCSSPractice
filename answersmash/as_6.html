@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Answer Smash 6</title>
+        <link rel="stylesheet" href="../front_style.css">
+    </head>
+    <body class="question">
+        <nav class="sidebar_nav">
+            <ul>
+                <li><a href="../frontpage.html">Home</a></li>
+                <li><a href="./as_example.html">Example</a></li>
+                <li><a href="./as_1.html">AS 1</a></li>
+                <li><a href="./as_2.html">AS 2</a></li>
+                <li><a href="./as_3.html">AS 3</a></li>
+                <li><a href="./as_4.html">AS 4</a></li>
+                <li><a href="./as_5.html">AS 5</a></li>
+                <li><a href="./as_6.html">AS 6</a></li>
+                <li><a href="./as_7.html">AS 7</a></li>
+                <li><a href="./as_8.html">AS 8</a></li>
+                <li><a href="./as_9.html">AS 9</a></li>
+                <li><a href="./as_10.html">AS 10</a></li>
+                <li><a href="../apologies.html">Apologies</a></li>
+            </ul>
+        </nav>
+
+        <h1>Answer Smash: 6</h1>
+
+        <div class="as_question_area center">
+            <p class="as_question_half">What is another name for a "Hash Table" or a data structure in C# built on top of an array using key/value pairs?</p>
+
+            <button class="as_second_half" onclick="show()">Who is this?</button>
+                <script>
+                    function show(){
+                    let image = document.getElementById("reese");
+                    image.style.display = "block";
+                    }
+                </script>
+
+            <img class="as_image" id="reese" width="500px" src="../Images/reese.png">
+
+            <button class="frontpage solutionButton" onclick="showSolution()">Solution</button>
+            <p class="answer" id="solution" style="visibility: hidden;">DictionaReese Witherspoon</p>
+            <script>
+                function showSolution(){
+                    let solution = document.getElementById("solution");
+                    solution.style.visibility = "visible";
+                }
+            </script>
+        </div>
+    </body>
+</html>

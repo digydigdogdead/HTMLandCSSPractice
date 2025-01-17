@@ -1,0 +1,87 @@
+body.home {
+    background: url(./Images/background.png)  repeat;
+    background-size: 35%;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1.frontpage {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+button.frontpage {
+    background-color: aqua;
+    color: black;
+    border: 4px red;
+    border-style: solid;
+    padding: 10px;
+    font-size: 2rem;
+    margin: 200px;
+    transition-duration: 0.3s;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.frontpage.solutionButton {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+button:hover {
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: armenian;
+    background: red;
+    display: inline-block;
+}
+
+.sidebar_nav {
+    position: fixed;
+}
+
+body.question {
+    background-color: aqua;
+}
+
+.as_question_half {
+    background-color: red;
+    border: 5px gold;
+    border-style: solid;
+    color: white;
+    padding: 30px 30px;
+    
+}
+
+.as_question_area {
+    flex-direction: column;
+}
+
+.as_image {
+    border-style: solid;
+    border: blue 4px;
+    display: none;
+}
+
+.hint { 
+    font-family: wingdings;
+}
+
+.hint:hover {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}

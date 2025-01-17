@@ -1,0 +1,47 @@
+#blameKatherineHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+#Manifesto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 200px;
+}
+
+#long {
+    width: 300px;
+}
+
+p {
+    margin: 40px;
+}
+
+#absolved {
+    width: 300px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#completely {
+    color: red;
+}
+
+#startAgain {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 2rem;
+}
