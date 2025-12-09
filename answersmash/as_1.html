@@ -19,24 +19,23 @@
                 <li><a href="./as_8.html">AS 8</a></li>
                 <li><a href="./as_9.html">AS 9</a></li>
                 <li><a href="./as_10.html">AS 10</a></li>
-                <li><a href="../apologies.html">Apologies</a></li>
             </ul>
         </nav>
 
         <h1>Answer Smash: 1</h1>
 
         <div class="as_question_area center">
-            <p class="as_question_half">What does the M in "HTML" stand for?</p>
+            <p class="as_question_half">Which piece from Tchaikovsky's ballet "The Nutcracker" is frequently played at Christmas?</p>
 
-            <button class="as_second_half" onclick="playSong()">What song is this?</button>
+            <button class="as_second_half" onclick="show()">What are these?</button>
                 <script>
-                    function playSong(){
-                    let song = document.getElementById("song");
-                    song.play();
+                    function show(){
+                    let image = document.getElementById("fairylights");
+                    image.style.display = "block";
                     }
                 </script>
 
-            <audio src="../Audio/10-Uptown Girl.flac" id="song"></audio>
+            <img class="as_image" id="fairylights" width="500px" src="../Images/fairylights.webp">
 
             <button class="frontpage solutionButton" onclick="showSolution()">Solution</button>
             <p class="answer" id="solution" style="visibility: hidden;">MarkUptown Girl</p>
