@@ -19,35 +19,26 @@
                 <li><a href="./as_8.html">AS 8</a></li>
                 <li><a href="./as_9.html">AS 9</a></li>
                 <li><a href="./as_10.html">AS 10</a></li>
-                <li><a href="../apologies.html">Apologies</a></li>
             </ul>
         </nav>
 
         <h1>Answer Smash: 8</h1>
 
         <div class="as_question_area center">
-            <p class="as_question_half">What popular game show sees contestants compete for prizes by trying to guess the prices of those prizes?</p>
+            <p class="as_question_half">What story features 3 farm animals that build houses out of different materials?</p>
 
-            <button class="as_second_half" onclick="show()">What is this?</button>
+            <button class="as_second_half" onclick="show()">What are these?</button>
                 <script>
                     function show(){
-                    let image = document.getElementById("join");
+                    let image = document.getElementById("pib");
                     image.style.display = "block";
                     }
                 </script>
 
-            <img class="as_image" id="join" width="500px" src="../Images/join.png">
+            <img class="as_image" id="pib" width="500px" src="../Images/pib.jpg">
 
-            <p>
-                <pre class="hint">
-                    SELECT column_name
-                    FROM table1
-                    RIGHT JOIN table2
-                    ON table1.column_name = table2.column_name;
-                </pre>
-            </p>
             <button class="frontpage solutionButton" onclick="showSolution()">Solution</button>
-            <p class="answer" id="solution" style="visibility: hidden;">The Price is Right Outer Join</p>
+            <p class="answer" id="solution" style="visibility: hidden;">Three Little Pigs In Blankets</p>
             <script>
                 function showSolution(){
                     let solution = document.getElementById("solution");
