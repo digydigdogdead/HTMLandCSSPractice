@@ -46,7 +46,7 @@ button:hover {
 }
 
 ul {
-    list-style-type: armenian;
+    list-style-type: circle;
     background: red;
     display: inline-block;
 }
