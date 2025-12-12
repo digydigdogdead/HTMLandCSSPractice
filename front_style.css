@@ -85,3 +85,7 @@ body.question {
 .hint:hover {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+.answer {
+    font-size: 2rem;
+}
